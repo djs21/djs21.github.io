@@ -1,0 +1,96 @@
+# bahan jaringan
+1. jaringan internet untuk non opd & sekolahan yg berda dalam pengelolaan diskominfo, pendataan galih; intinya dikarenakan bandwidth minimal indibiz adalah 50mbps, maka untuk migrasi dari indihome ke indibiz bandwidth yg digunakan adalah 50mbps untuk satkordik & siak kecamatan, 75mbps untuk kecamatan-kecamatan dan 100 mbps untuk sekolah-sekolah. untuk perkiraan anggaran galih.
+2. internet utama => jan-mar 2024, penggunaan pppoe untuk distribusi internet ke perangkat daerah, jika dilihat dari data penangkapan traffic di tools monitoring prtg rata2 penggunaan bandwidth harian di angka 600mbps, apr-sept distribusi menggunakan pppoe diganti menjadi menggunakan vlan, dengan distribusi utama ditakeover oleh router x86 diskominfo, jika dilihat dari tool prtg penggunaan bandwidth rata2 harian naik menjadi 800mbps-900mbps. dilihat dari gambar graph 1-9.
+[!graph1](./bahan-jaringan/graph1-jan2024.png "graph1")
+[!graph2](./bahan-jaringan/graph2-feb2024.png "graph2")
+[!graph3](./bahan-jaringan/graph2-mar2024.png "graph3")
+[!graph4](./bahan-jaringan/graph2-apr2024.png "graph4")
+[!graph5](./bahan-jaringan/graph2-may2024.png "graph5")
+[!graph6](./bahan-jaringan/graph2-jun2024.png "graph6")
+[!graph7](./bahan-jaringan/graph2-jul2024.png "graph7")
+[!graph8](./bahan-jaringan/graph2-aug2024.png "graph8")
+[!graph9](./bahan-jaringan/graph2-sep2024.png "graph9")
+3. dari point 2 di atas, dapat disimpulkan, mulai apr-sept jalur distribusi internet/intranet dalam pengelolaan diskominfo sudah berada dalam kondisi yang lebih optimal, terbukti dengan naiknya nilai penggunaan bandwidth harian rata2 dari 600mbps menjadi 900mbps. protokol distribusi menggunakan vlan terbukti lebih minim overhead dibanding dengan protokol pppoe 
+4. layanan existing diskominfo :
+distribusi layanan internet dibagi menjadi 4 (empat) kategori dengan 2 (dua) jenis distribusi. Distribusi pertama menggunakan metoda point to point (PTP) dengan bentuk kedua menggunakan bentuk tunneling.
+Untuk kategori distribusi dibedakan berdasarkan skala penggunaan client, dengan kategori sebagai berikut :
+a. kategori utama:
+1.	DPUPR
+2.	DISKAN
+3.	DISKOPUKMNAKERTRANS
+4.	BAPEDA
+5.	DLH
+6.	DP3AP2KB
+7.	DISPERKIM
+8.	DISPARBUD
+9.	DKPP
+10.	DISDIKPORA
+11.	DINSOSPERMASDES
+12.	DINKES
+13.	DISDUKCAPIK
+14.	BKD
+15.	BPBD
+16.	BAKESBANGPOL
+17.	DISPERINDAG
+18.	SATPOL-PP DAMKAR
+19.	SETWAN
+20.	DPMPTSP
+21.	INSPEKTORAT
+22.	DISKOMINFO
+23.	BPKAD PENDAPATA
+24.	DISKARPUS PERPUSDA
+25.	DISKARPUS BUKIT ASRI
+26.	SETDA
+27.	DKPP UJUNGBATU
+28.	DKPP BUKIT ASRI
+29.	RUMAH DINAS BUPATI
+30.	RUMAH DINAS WAKIL BUPATI
+31.	RUMAH DINAS SETDA JEPARA
+32.	DISHUB
+33.	DATA CENTER DISKOMINFO
+
+B.	Katagori Sub Utama yang meliputi :
+1.	LABKESDA
+2.	LABORAT DLH
+3.	POS DAMKAR UJUNGBATU
+4.	INSTALASI FARMASI KABUPATEN JEPARA
+5.	STADIUN BOLA GELORA BUMI KARTINI
+6.	UPT SARPRAS DPUPR
+7.	LAPANGAN FUTSAL KOMPLEK GELORA BUMI KARTINI
+8.	KOLAM RENANG OLYMPIC POOL KOMPLEK GELORA BUMI KARTINI
+9.	SANGGAR KEGIATAN BELAJAR PENGKOL
+10.	TPDK SIAK JEPARA
+11.	MUSEUM RA KARTINI
+12.	DEWAN KESENIAN DAERAH
+13.	DISPERINDAG PASAR PENGKOL
+14.	TIC DISPARBUD
+15.	TIC PANTAI KARTINI
+16.	KEC. JEPARA
+17.	PELABUHAN PENYEBRANGAN RA KARTINI
+18.	TERMINAL JEPARA
+19.	PJ SUNSET
+
+C.	Katagori layanan public
+1.	Free wifi mall pelayanan
+2.	Free wifi scj
+3.	Free wifi Mangun Sarkoro stret
+4.	Free wifi Pasar Pengkol
+5.	Free wifi taman kerang
+6.	Free wifi Pendopo Kartini
+7.	Free wifi pelabuhan penyebarangan jepara
+8.	Free wifi taman baca
+9.	Free wifi alun-alun jepara
+10.	Free wifi alun-alun 2 jepara
+11.	Free wifi terminal jepara
+12.	Free wifi rumah jagong
+13.	Free wifi museum kartini
+14.	Free wifi studion kamal junaidi
+
+D.	Katagori Layanan CCTV Data Transmisi
+1.	CCTV Taman Baca
+2.	CCTV Alun-Alun jepara
+3.	CCTV Alun-Alun 2 jepara
+4.	CCTV JL. Kartini Depan masjid Agung
+5.	CCTV Taman Kerang
+6.	CCTV JL. Pemuda depan BRI
+
