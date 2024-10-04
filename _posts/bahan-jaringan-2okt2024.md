@@ -1,3 +1,8 @@
+---
+layout: post
+title: Jaringan
+---
+
 # bahan jaringan
 1. jaringan internet untuk non opd & sekolahan yg berda dalam pengelolaan diskominfo, pendataan galih; intinya dikarenakan bandwidth minimal indibiz adalah 50mbps, maka untuk migrasi dari indihome ke indibiz bandwidth yg digunakan adalah 50mbps untuk satkordik & siak kecamatan, 75mbps untuk kecamatan-kecamatan dan 100 mbps untuk sekolah-sekolah. untuk perkiraan anggaran galih.
 2. internet utama => jan-mar 2024, penggunaan pppoe untuk distribusi internet ke perangkat daerah, jika dilihat dari data penangkapan traffic di tools monitoring prtg rata2 penggunaan bandwidth harian di angka 600mbps, apr-sept distribusi menggunakan pppoe diganti menjadi menggunakan vlan, dengan distribusi utama ditakeover oleh router x86 diskominfo, jika dilihat dari tool prtg penggunaan bandwidth rata2 harian naik menjadi 800mbps-900mbps. dilihat dari gambar graph 1-9.
